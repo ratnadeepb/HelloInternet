@@ -2,12 +2,6 @@
 -- Created on Tue Jan 21 2020:16:46:45
 -- Created by Ratnadeep Bhattacharya
 --]]
-
-langs = {"Lua", "C", "C++", "Python", "Java", "Ruby"}
-
-function find_language(s)
-
-
 local socket = require("socket") -- master
 
 server = assert(socket.tcp()) -- create tcp socket
